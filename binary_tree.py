@@ -148,15 +148,9 @@ def random_height(n):
      
      
 if __name__ == '__main__':
-    
-        
     x = None
     x = add_all(x,[13, 17, 10, 16, 11, 9, 8, 14, 4, 7, 21, 3, 2, 18, 15, 12, 6, 20, 19, 5, 1])
     print_tree(x)
     print(size(x))
     print(height(x))
-    while True:
-        try:
-            exec(prompt.for_string('Command'))
-        except Exception:
-            traceback.print_exc()   
+      
